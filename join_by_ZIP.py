@@ -53,7 +53,7 @@ class join_by_ZIP(dml.Algorithm):
         dealWithZip(school,"ZIP")
         for s in property:
             s["ZIPCODE"] = "0"+ str(s["ZIPCODE"])[:4]
-        print(school)
+        # print(school)
 
         val_dic = {}
         ar_dic = {}
