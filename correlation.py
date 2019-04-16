@@ -20,7 +20,6 @@ class correlation(dml.Algorithm):
 
         startTime = datetime.datetime.now()
 
-        # Set up the database connection.
         client = dml.pymongo.MongoClient()
         repo = client.repo
         repo.authenticate('Jinghang_Yuan', 'Jinghang_Yuan')
