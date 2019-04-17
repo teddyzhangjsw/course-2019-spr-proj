@@ -18,7 +18,7 @@ def dealWithZip(data,key):
 class join_by_ZIP(dml.Algorithm):
     contributor = 'Jinghang_Yuan'
     reads = ['Jinghang_Yuan.center', 'Jinghang_Yuan.centerPool', 'Jinghang_Yuan.policeStation','Jinghang_Yuan.school','Jinghang_Yuan.property']
-    writes = ['Jinghang_Yuan.countAll']
+    writes = ['Jinghang_Yuan.ZIPCounter']
 
     @staticmethod
     def execute(trial=False):
